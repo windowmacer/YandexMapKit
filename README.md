@@ -8,15 +8,18 @@
 $> sudo gem install cocoapods
 ```
 
-> **Проверка**
-
+<details><summary>
+Проверка
+</summary>
+	
 ```bash
-$> pod —version
+$> pod --version
 your_version
 ```
+</details>
 
 <details><summary>
-*Если у вас возникнут какие-либо проблемы во время установки*
+Если у вас возникнут какие-либо проблемы во время установки
 </summary>
 
  1. Ознакомьтесь с этим руководством: [Документация](https://guides.cocoapods.org/using/troubleshooting#installing-cocoapods)
@@ -28,7 +31,7 @@ your_version
 
 </details>
 
---
+---
 
 **2) Получим API ключ для работы**
 
@@ -41,7 +44,7 @@ your_version
 
 Заполните информацию о своем проекте. Ваш API-ключ будет успешно создан, вскоре он понадобится.
 
---
+---
 
 **3) Создаем проект**
 
@@ -116,11 +119,12 @@ $> open *.xcworkspace
 	**Privacy - Location When In Use Usage Description**
 > Надпись (графа String) может быть любой, например: *Доступ к вашей локации*
 
-	<details><summary>
-В процессе сборки проекта у меня возникала проблема: ***"Sandbox: rsync.samba (13105)"***
+<details><summary>
+В процессе сборки проекта у меня возникала проблема: "Sandbox: rsync.samba (13105)"
 </summary>
-	**Решение:** *Изменить параметр сборки проекта Xcode*
-	```User Script Sandboxing - 'No' ```
+	Решение: Изменить параметр сборки проекта Xcode
+	
+	User Script Sandboxing - 'No'
 </details>
 
 
