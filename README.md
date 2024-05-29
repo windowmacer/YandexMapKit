@@ -10,7 +10,7 @@ $> sudo gem install cocoapods
 
 > **Проверка**
 
->```bash
+```bash
 $> pod —version
 your_version
 ```
