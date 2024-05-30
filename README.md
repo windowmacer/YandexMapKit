@@ -1,5 +1,38 @@
 # YandexMapKit
 
+Проверьте установлен на вашем Mac: **Homebrew, Xcode Command Line Tools и Ruby**
+<details><summary>
+Если нет, выполните следующие команды в терминале
+</summary>
+
+ Убедитесь, что у вас установлены необходимых инструментов для сборки. Если нет, установите их с помощью следующей команды:
+
+- Установите Xcode Command Line Tools:
+
+```bash
+$> xcode-select --install
+```
+
+- Установите Homebrew, если он еще не установлен:
+
+```bash
+$> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+- Установите необходимые пакеты с помощью Homebrew:
+
+```bash
+$> brew install autoconf automake libtool pkg-config
+```
+
+- Установите Ruby через Homebrew::
+
+```bash
+$> brew install ruby
+```
+
+</details>
+
 ## Подготовка
 
 **1) Установка CocoaPods**
@@ -26,7 +59,11 @@ your_version
 
  2. Мне также помогли следующие действия:
 	```
-	$> sudo gem install cocoapods
+	$> sudo gem uninstall cocoapods
+ 	$> brew reinstall ruby
+ 	$> sudo gem update --system 3.5.10
+ 	$> sudo gem install drb -v 2.0.6
+ 	$> sudo gem install cocoapods
 	```
 
 </details>
