@@ -116,7 +116,7 @@ $> open *.xcworkspace
 	```
 - Добавим в таргет проекта:
 
-	**Privacy - Location When In Use Usage Description**
+  `Privacy - Location When In Use Usage Description`
 > Надпись (графа String) может быть любой, например: *Доступ к вашей локации*
 
 <details><summary>
