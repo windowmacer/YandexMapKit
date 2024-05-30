@@ -1,4 +1,16 @@
-# YandexMapKit
+# YandexMapKit для SwiftUI
+
+## Описание
+
+Этот проект демонстрирует, как интегрировать библиотеку [YandexMapKit](https://yandex.ru/dev/maps/mapkit/doc/ios-swift/quickstart.html) в приложение на SwiftUI. YandexMapKit позволяет добавлять карты Яндекса в ваше приложение и использовать различные возможности картографических сервисов Яндекса, такие как отображение карт, маршрутизация, геокодирование и другие.
+
+## Требования
+
+- iOS 12.0 и выше
+- Xcode 12.0 и выше
+- Swift 5.3 и выше
+
+## Установка
 
 Проверьте установлен на вашем Mac: **Homebrew, Xcode Command Line Tools и Ruby**
 <details><summary>
