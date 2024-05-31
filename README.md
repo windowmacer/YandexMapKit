@@ -103,6 +103,7 @@ your_version
 Далее установим *PodFile*, для этого в терминале директории проекта:
 
 ```bash
+$> cd yourProjectSwiftUI
 $> pod init
 $> open Podfile
 ```
