@@ -4,6 +4,12 @@
 
 Этот проект демонстрирует, как интегрировать библиотеку [YandexMapKit](https://yandex.ru/dev/maps/mapkit/doc/ios-swift/quickstart.html) в приложение на SwiftUI. YandexMapKit позволяет добавлять карты Яндекса в ваше приложение и использовать различные возможности картографических сервисов Яндекса, такие как отображение карт, маршрутизация, геокодирование и другие.
 
+В этом репозитории содержится проект `YandexMapKit` (далее в качестве примера будут испоьзованы скрины из этого проета), для демонстрации используется функция преобразования координат.
+
+<div>
+  <img src="Files/promt.gif" height="350" width="600">
+</div>
+
 ## Требования
 
 - iOS 12.0 и выше
@@ -99,6 +105,11 @@ your_version
 
 Создаем проект SwiftUI в XCode: ***yourProjectSwiftUI***
 
+> Например: создадим проект YandexMapKit
+
+<div>
+  <img src="Files/imageA.png" height="500">
+</div>
 
 Далее установим *PodFile*, для этого в терминале директории проекта:
 
@@ -114,6 +125,12 @@ $> open Podfile
 use_frameworks!
 pod 'YandexMapsMobile', '4.6.1-full'
 ```
+
+> Для нашего проекта будет выглядеть следующим образом
+
+<div>
+  <img src="Files/imageB.png" height="500">
+</div>
 
 Выполните в директории проекта команду:
 
@@ -169,10 +186,18 @@ $> open *.xcworkspace
   `Privacy - Location When In Use Usage Description`
 > Надпись (графа String) может быть любой, например: *Доступ к вашей локации*
 
+<div>
+  <img src="Files/imageC.png" height="500">
+</div>
+
 <details><summary>
 В процессе сборки проекта у меня возникала проблема: "Sandbox: rsync.samba (13105)"
 </summary>
-	Решение: Изменить параметр сборки проекта Xcode
+<div>
+  <img src="Files/imageD.png" height="500">
+</div>
+ 
+Решение: Изменить параметр сборки проекта Xcode
 	
 	User Script Sandboxing - 'No'
 </details>
@@ -249,6 +274,10 @@ $> open *.xcworkspace
 	```
 
 ## Добавим дизайн в проект
+
+<div>
+  <img src="Files/imageE.png" height="500">
+</div>
 
 Создадим ***ListView*** для удобства использования ***MapView*** и добавим в ***ContentView***:
 
